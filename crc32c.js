@@ -3,7 +3,7 @@
 const { createSlicedTable } = require('./src/create-table');
 const crc32By8 = require('./src/crc32-by-8');
 
-const CRC32C_LOOKUP = createSlicedTable(0x82f63b78);
+const CRC32C_LOOKUP = createSlicedTable(0xedb88320);
 
 module.exports = crc32c;
 
