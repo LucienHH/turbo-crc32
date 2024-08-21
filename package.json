@@ -1,5 +1,5 @@
 {
-  "name": "turbo-crc32",
+  "name": "@lucienhh/turbo-crc32",
   "version": "1.0.1",
   "description": "CRC32 generation using Slicing-by-N algorithm",
   "scripts": {
